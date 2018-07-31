@@ -1,0 +1,38 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+html,
+body,.app {
+  height: 100%;
+  text-align: center;
+}
+
+.tool-tip::after{
+  bottom: 100%;
+  left: 50%;
+  font-size: 12px;
+  position: absolute;
+  z-index: 99;
+  background-color: black;
+  color: white;
+  padding: .5em 1em;
+  border-radius: 4px;
+  content: attr(data-tip);
+  margin-bottom: 10px;
+  transition: all 0.18s ease-out 0.18s;
+}
+
+.bottom::after{
+  bottom: -100%;
+}
+
+.bottom-tip{
+  bottom: -100%;
+}
+
+.tool-tip{
+  position: relative;
+}
+
+.btn{
+  position: relative !important;
+}

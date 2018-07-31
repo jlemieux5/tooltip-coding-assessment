@@ -1,0 +1,20 @@
+<div class="app" (keyup.escape)="closeToolTips()">
+  <div class="title">
+    <h1>Xello Coding Assesment</h1>
+  </div>
+
+  <div class="row justify-content-center add-padding">
+    <button [appTooltip]="firstTip" [displayTip]="displayFirstTip" (click)="switchToFirstToolTip()" (keyup.enter)="switchToFirstToolTip()" class="btn btn-lg btn-secondary mr-5">
+      <!--<tooltip [tip]="firstTip" [displayTip]="displayFirstTip"></tooltip>-->
+      Button #1
+    </button>
+    <button [appTooltip]="secondTip" [displayTip]="displaySecondTip" (click)="switchToSecondToolTip()" (keyup.enter)="switchToSecondToolTip()" class="btn btn-lg btn-primary">
+      <!--<tooltip [tip]="secondTip" [displayTip]="displaySecondTip"></tooltip>-->
+      Button #2
+    </button>
+  </div>
+</div>
+
+
+<!---->
+<!---->
