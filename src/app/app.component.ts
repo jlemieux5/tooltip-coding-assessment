@@ -13,7 +13,7 @@ export class AppComponent {
   displayFirstTip: boolean = false;
   displaySecondTip: boolean = false;
 
-  // Listening for escape key or mouse click not on one of the buttons to close tooltips
+  // Listening for escape key and click events not on button to close the tooltips
   @HostListener('click', ['$event'])
   @HostListener('window:keyup', ['$event'])
   onEvent(event) {

@@ -23,6 +23,10 @@ export class TooltipComponent implements OnInit {
 
   }
 
+  ngOnInit(){
+
+  }
+
   constructor() {
   }
 
@@ -31,7 +35,6 @@ export class TooltipComponent implements OnInit {
   }
 
   switchToolTipToTop(){
-    console.log("switching to top");
     this.bottomTip = false;
   }
 
