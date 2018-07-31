@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
 
+------NOTE-----
+
+For this project I have added two different methods of generating tooltips. I have created a re-usable direcective (this is what is currently being used), as well as a component. To use the component a few things must be commented back in / out. Reach me at joshlemieux555@gmail.com if you would like the steps to test the component.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
